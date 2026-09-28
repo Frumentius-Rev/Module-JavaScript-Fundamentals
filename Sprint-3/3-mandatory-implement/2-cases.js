@@ -15,8 +15,8 @@
 // Use the MDN string documentation to help you find a solution
 // This might help https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
 
-function toUpper(input) {
+function toUpperSnakeCase(input) {
   return input.replaceAll(" ", "_").toUpperCase();
 }
 
-console.log(toUpper("alpha and omega"));
+console.log(toUpperSnakeCase("alpha and omega"));
