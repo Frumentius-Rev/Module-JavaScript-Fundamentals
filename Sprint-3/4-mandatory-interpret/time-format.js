@@ -33,7 +33,7 @@ console.log(formatTimeDisplay(61));
 // "00"
 
 // d) What is the value assigned to num when pad is called for the last time in this program?  Explain your answer
-// 1
+// 1, because remainingSeconds is 1, so pad is called with 1 last
 
 // e) What is the return value of pad when it is called for the last time in this program?  Explain your answer
-// "01"
+// "01" because pad adds a "0" when the number has fewer than 2 digits
