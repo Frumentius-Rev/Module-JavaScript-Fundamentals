@@ -22,3 +22,5 @@ function toPounds(amount) {
 }
 
 console.log(toPounds("1250p"));
+console.log(toPounds("50p"));
+console.log(toPounds("18p"));
